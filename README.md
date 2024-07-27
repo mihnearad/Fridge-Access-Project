@@ -22,6 +22,16 @@ I am using the following libraries for data visualization:
 
 The data from the sensor is processed and visualized to provide insights into the usage patterns of the fridge.
 
+This is the sensor used for the project: 
+
+![Sensor](Sensor.png)
+
+
+Example Data Plot: 
+
+![Plot1](Plot.png)
+
+
 ---
 
 This project is a work in progress, and I plan to add more features and automate the data collection process in the future.
