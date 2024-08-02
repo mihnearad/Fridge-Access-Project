@@ -30,9 +30,9 @@ This is the sensor used for the project:
 ![Sensor](Sensor.png)
 
 
-Example Data Plot: 
+Data Plot: 
 
-![Plot1](Plot.png)
+![Plot1](NewPlot.png)
 
 
 
