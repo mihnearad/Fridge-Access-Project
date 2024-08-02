@@ -2,7 +2,10 @@
 
 I had an unused Zigbee vibration sensor at home that was not used for any automation. Wanting to put my data skills to use, I decided to use it towards a data gathering project. Therefore, I placed it in the Fridge, as any other person would. I wanted to know, how many times a day, do I open the fridge ❄️, what are the most common hours, and what are the most common days. So far, I have only a few days of data, but will constantly adapt the project with new developments.
 
-At the moment, I am using a Jupyter notebook with pandas, numpy, matplotlib alongside Bokeh and Plotly for visualizations. The current setup is that my Home Assistant VM captures Zigbee data from the sensor and exports it in a CSV file. Further down the road, I have in mind to automate this process.
+I've updated the program so that the analysis is done (manually) in a python script and parsed as .json format. Then, the front-end takes it up via JS and displays it on the link below.
+
+You can check the data here: [![Demo](https://img.shields.io/badge/Demo-View%20Demo-blue)](https://fridge.mihnea-radulescu.com)
+
 
 ## Analysis
 
@@ -30,6 +33,7 @@ This is the sensor used for the project:
 Example Data Plot: 
 
 ![Plot1](Plot.png)
+
 
 
 ---
