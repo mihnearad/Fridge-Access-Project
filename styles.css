@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+#chart {
+  width: 90%;
+  height: 80%;
+  margin-bottom: 10px;
+}
+
+#title {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center elements */
+  justify-content: center; /* Center elements horizontally */
+  gap: 10px; /* Space between elements */
+  margin-bottom: 10px; /* Space below the title */
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#fridge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 19px;
+  width: 90px;
+  height: auto;
+  padding: 10px;
+}
+
+#data-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  gap: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#filter-button {
+  background-color: #b0c4de; /* Pastel Blue */
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 10px; /* Add border-radius property to make corners rounded */
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+#filter-button:hover {
+  background-color: #ffb6c1; /* Pastel Coral */
+  transition: 0.2s; /* Add a transition effect */
+  scale: 1.1; /* Add a scale effect */
+}
+
+#start-date {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#end-date {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#start-date:hover {
+  cursor: pointer;
+  background-color: #ffb6c1; /* Pastel Coral */
+}
+#end-date:hover {
+  cursor: pointer;
+  background-color: #ffb6c1; /* Pastel Coral */
+}

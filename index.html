@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fridge Access Analysis</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <div id="title">
+      <img src="fridge.gif" alt="Refrigerator" id="fridge" />
+      <h1>Fridge Access Analysis</h1>
+      <img src="refrigerator.gif" alt="Refrigerator" id="fridge" />
+    </div>
+
+    <!-- Data Filter Input-->
+    <div id="data-filters">
+      <label for="start-date">From:</label>
+      <input type="date" id="start-date" value="2024-07-25" />
+      <label for="end-date">to:</label>
+      <input type="date" id="end-date" value="2025-06-30" />
+    </div>
+    <button id="filter-button">Filter Data</button>
+
+    <div id="chart"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
